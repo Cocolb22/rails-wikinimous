@@ -1,0 +1,29 @@
+
+.articles {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+
+  ul{
+    list-style: none !important;
+  }
+
+}
+ 
+li{
+
+  padding: 12px;
+  border: solid 1px #f1eeee;
+  border-radius: 20px;
+  margin: 6px;
+  background-color: #f1eeee;
+  text-align: center;
+
+  a {
+    color: rgb(65, 63, 63);
+    }
+}
+
+  li::first-letter{
+    text-transform: uppercase;
+  }

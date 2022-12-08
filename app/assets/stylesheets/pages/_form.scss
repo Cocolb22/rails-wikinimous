@@ -1,0 +1,35 @@
+.form{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 12px;
+}
+
+
+.title {
+  display: grid;
+  margin-bottom: 12px;
+
+  #article_title{
+      width: 500px;
+      height: 50px;
+      border: solid 1px #f1eeee;
+      border-radius: 20px;
+
+    }
+    }
+
+.content{
+  display: grid;
+  margin-bottom: 12px;
+
+  #article_content{
+    width: 500px;
+    height: 300px;
+    border: solid 1px #f1eeee;
+    border-radius: 20px;
+
+  }
+}

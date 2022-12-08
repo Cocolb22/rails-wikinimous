@@ -1,0 +1,17 @@
+<%= render "pages/navbar" %>
+
+<div class= "form">
+  <%= form_with model: @article do |f| %>
+  <div class = "title">
+    <%= f.label :Titre %>
+    <%= f.text_field :title %>
+  </div>
+  <div class = "content">
+    <%= f.label :Contenu %>
+    <%= f.text_field :content %>
+  </div>
+    <%= f.submit %>
+  <% end %>
+</div>
+
+<%= link_to "Back", :back %>

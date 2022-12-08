@@ -1,0 +1,22 @@
+.show-article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 24px;
+  border: solid 1px #f1eeee;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 12px;
+  background-color: #f1eeee;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  h2 {
+    color: rgb(90, 98, 221);
+  }
+
+  p{
+    color: rgb(159, 164, 238);
+  }
+
+}
